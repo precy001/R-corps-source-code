@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'geologica', sans-serif;
+    background-color:black;
+    color: white;
+}
+
+.container{
+    margin-top: 12%;
+}
+
+.message{
+    margin-top: 2%;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 4%;
+}
+
+.login-button{
+    color: white;
+    text-decoration: none;
+    background-color: #660000;
+    padding: 1rem 3rem;
+    border-radius: .2rem;
+    border: 1px solid #660000;
+    transition: .5s ease-in-out;
+}
+
+.login-button:hover{
+    background-color: transparent;
+    border: 1px solid #660000;
+    color: #660000;
+}
+
+
+

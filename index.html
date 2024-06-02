@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | R-corps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+    <button class="hamburger">
+        <div class="bar"></div>
+    </button>
+    <div class="mobile-nav">
+        <button class="js-about" onclick="closeSideBar('about');">About us</button>
+        <button class="js-works" onclick="closeSideBar('works');">Our works</button>
+        <button class="js-services" onclick="closeSideBar('services');">Our Services</button>
+        <button class="js-contact" onclick="closeSideBar('contact');">Contact us</button>
+    </div>
+
+    <div class="nav">
+        <img src="assets/images/logo.png" alt="" width="150" height="150">
+        <div class="nav-links">
+            <a href="#about">About us</a>
+            <a href="#our-works">Our works</a>
+            <a href="#our-services">Our Services</a>
+            <a href="#contact">Contact us</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="note">Harness the <div>Power of</div> <div class="red">Your Brand</div></div>
+    </div>
+
+    <div class="about" id="about">
+        <center>
+            <div class="title">About us
+            <hr class="hr">
+            </div>
+            <div class="all">
+                <div class="word">
+                <div class="trans-1">
+                Welcome to R-corps, where innovation meets digital security. Our team is a unique blend of talented developers, designers and expert cybersecurity professionals, dedicated to delivering exceptional digital solutions while safeguarding your assets.
+                </div>
+
+                <div class="trans-2">
+                <div class="bold">Who We Are</div>
+                <div class="sub">Developers</div>: We create cutting-edge web and mobile applications, ensuring functionality, scalability, and an outstanding user experience.
+                <br><br><div class="sub">Designers</div>: Our creative designers craft visually stunning and intuitive designs that captivate and engage your audience.
+                <br><br><div class="sub">Cybersecurity Experts</div>: We protect your digital presence with comprehensive security services, from risk assessments to continuous monitoring.
+                </div>
+                
+                <div class="trans-3">
+                <div class="bold">What We Do</div>
+                <div class="sub">Web development</div>: Custom, responsive solutions to engage your audience and drive growth.
+                <br><br><div class="sub">Design services</div>: Innovative design solutions that enhance user experience and brand identity.
+                <br><br><div class="sub">Cybersecurity Services</div>: Advanced protection to keep your business and customers safe from cyber threats.
+                </div>
+
+                <div class="trans-4">
+                <div class="bold">Our Approach</div>
+                We prioritize collaboration, working closely with you to align our innovative and secure solutions with your business goals.
+                
+                <div class="bold">Why Choose Us?</div>
+                <div class="sub">Expertise</div>: Skilled professionals in development, design, and cybersecurity.
+                <br><br><div class="sub">Innovation</div>: Pushing the boundaries with creative, effective solutions.
+                <br><br><div class="sub">Security</div>: Robust practices to ensure your peace of mind.
+                <div class="foot">Join R-corps to elevate your brand with powerful, secure digital solutions. Let's build a bright and secure digital future together.</div>
+                </div>
+                </div>
+            </div>
+        </center>
+    </div>
+
+
+    <div class="our-works">
+        <center>
+        <div class="lie" id="our-works">
+            50+ brands and counting.
+           <div>Let's work with you</div>
+           <div class="contact-button"><a href="#contact">Contact-us</a></div>
+        </div>
+        </center>
+    </div>
+
+    <div class="services-main" id="our-services">
+        
+<center>
+    <div class="title-services">
+        Our services
+        <hr class="hr">
+    </div>
+
+    <div class="service-word">
+        We offer comprehensive digital solutions, including advanced cybersecurity to protect your business, custom web development for responsive and user-friendly websites, and professional graphic design to enhance your brand with stunning visuals. Partner with us to safeguard, engage, and elevate your business.
+    </div>
+
+    <div class="services" >
+        <div class="each-service">
+            <div class="img">
+            <img src="assets/icons/icons8-cyber-security-50 (1).png" width="50" height="50">
+            <div class="each-title">Cybersecurity</div>
+            <div class="each-note">
+                Safeguard your business with our advanced cybersecurity solutions, including threat detection, real-time monitoring, and incident response.
+            </div>
+            </div>
+        </div>
+        <div class="each-service">
+            <div class="img">
+            <img src="assets/icons/icons8-coding-50.png" width="50" height="50">
+            <div class="each-title">Web-Development</div>
+            <div class="each-note">
+                Create impactful online experiences with our custom web development services, delivering responsive and user-friendly websites and applications.
+            </div>
+            </div>
+        </div>
+        <div class="each-service">
+            <div class="img">
+            <img src="assets/icons/icons8-creative-design-66.png" width="50" height="50">
+            <div class="each-title">Graphics-design</div>
+            <div class="each-note">
+                Enhance your brand with our professional graphic design services, offering stunning visuals for logos, marketing materials, and more.
+            </div>
+        </div>
+        </div>
+    </div>
+</center>
+</div>
+
+<div class="contact-main" id="contact">
+    <center>
+        <div class="contact-title">Leave a message
+            <hr class="hr">
+        </div>
+
+        <div class="contact-note">
+            Have a question, suggestion, feel free to leave us a message below.
+        </div>
+
+        <form action="backend/mail.php" method="post">
+            <input type="text" placeholder="Your name" class="name" name="username" required> 
+            <input type="email" placeholder="Email-address" class="mail" name="usermail" required>
+            <div class="type">Type your message here</div>
+            <textarea type="text" class="message" name="usermessage" required></textarea>
+            <input type="submit" value="Send a message" class="submit" name="submit">
+        </form>
+        
+    </center>
+    <hr class="hr-2">
+
+    <div class="footer-main">
+       <div class="footer-title">R-corps</div>
+       <div class="footer-nav">
+        <a href="#about">About us</a>
+        <a href="#our-works">Our works</a>
+        <a href="#our-services">Our Services</a>
+        <a href="#contact">Contact us</a>
+       </div>
+    </div>
+
+    <div class="social-media">
+        <div class="mail-address"><a href="mailto:rcorpsinc@gmail.com">rcorpsinc@gmail.com</a></div>
+        <div class="insta"><a href="https://www.instagram.com/r_corpsinc?igsh=M252czl0bnBvZTdk&utm_source=qr">Instagram page</a></div>
+    </div>
+</div>
+
+<button id="backToTopBtn" title="Go to top"><img src="assets/icons/icons8-up-arrow-48.png" width="30" height="30"></button>
+</body>
+<script src="scripts/change-background.js"></script>
+<script src="scripts/toogle-menu-bar.js"></script>
+<script src="scripts/handle-backToTop.js"></script>
+</html>
